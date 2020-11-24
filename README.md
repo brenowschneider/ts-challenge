@@ -25,7 +25,7 @@ npm install
 
 ## Endpoints
 
-1. Only one endpoint is provided in the API, which is `http://localhost/4001/api/comparison/:consume``. Here are some examples:
+1. Only one endpoint is provided in the API, which has the pattern "http://localhost/4001/api/comparison/:consume", where consume is represented by a number greater than zero. Here are some examples:
 
 ```javascript
 http://localhost/4001/api/comparison/1000
