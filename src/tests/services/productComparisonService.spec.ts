@@ -19,7 +19,7 @@ describe('First test', () => {
     ]);
   });
 
-  it('should return "Packaged Tariff" as first element when consume is 4000', () => {
+  it('should return "Basic Electricity Tariff" as first element when consume is 4000', () => {
     const result = compareProductConsumePerYear(6000);
     expect(result).to.eql([
       { name: 'Basic Electricity Tariff', annualCostsInEuros: 1380 },
